@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wordcount</title>
+</head>
+<body>
+    <h1>total words: {{ wordCount }}</h1>
+
+    <h2> all words: </h2>
+    {% for key, val in wordlist %}
+        <h4>{{ key }} - {{ val }}</h4>
+    {% endfor %}
+
+</body>
+</html>
